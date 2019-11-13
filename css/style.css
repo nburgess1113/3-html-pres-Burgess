@@ -1,0 +1,116 @@
+body {
+    margin: 0 auto;
+}
+
+body, html, section {
+    width:100%;
+    height:100%;
+}
+
+.mySlides {display: none;}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 4vw;
+}
+
+.fs-img-1 {
+  /* The image used */
+  background-image: url(../img/stress.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fs-img-3 {
+  /* The image used */
+  background-image: url(../img/liveinmoment.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fs-img-4 {
+  /* The image used */
+  background-image: url(../img/friends.png);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fs-img-5 {
+  /* The image used */
+  background-image: url(../img/jumpwaves.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fs-img-6 {
+  /* The image used */
+  background-image: url(../img/trees.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fs-img-7 {
+  /* The image used */
+  background-image: url(../img/justletgo.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.black-shadow {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.caption {
+    font-size:8px;
+}
+
+#video-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#video-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
